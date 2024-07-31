@@ -1,0 +1,35 @@
+local parents = {
+    workspace.Lamps, 
+    workspace.NPCs, 
+    workspace.VIPMine:GetChildren()[11], 
+    workspace.VIPMine:GetChildren()[9], 
+    workspace.VIPMine:GetChildren()[6], 
+    workspace.VIPMine:GetChildren()[4], 
+    workspace.VIPMine:GetChildren()[5], 
+    workspace.VIPMine:GetChildren()[2], 
+    workspace.VIPMine.Model, 
+    workspace.VIPMine:GetChildren()[10], 
+    workspace.VIPMine:GetChildren()[10], 
+    workspace.VIPMine:GetChildren()[12], 
+    workspace.VIPMine:GetChildren()[12], 
+    workspace.VIPMine:GetChildren()[7], 
+    workspace.VIPMine:GetChildren()[8], 
+    workspace.VIPMine.Portal, 
+    workspace.VIPMine:GetChildren()[3], 
+    workspace.VIPMine:GetChildren()[13]
+}
+
+for _, parent in pairs(parents) do
+    if parent then
+        for _, child in pairs(parent:GetChildren()) do
+            child:Destroy()
+        end
+    end
+end
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 1, 4)
+part.Position = Vector3.new(41.96063995361328, 10.855087280273438, -1239.646484375)
+part.Anchored = true
+part.Transparency = 1
+part.Parent = workspace
