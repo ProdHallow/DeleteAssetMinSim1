@@ -29,7 +29,7 @@ end
 
 local part = Instance.new("Part")
 part.Size = Vector3.new(4, 1, 4)
-part.Position = Vector3.new(41.96063995361328, 10.855087280273438, -1239.646484375)
+part.Position = Vector3.new(41.96063995361328, 9, -1239.646484375)
 part.Anchored = true
 part.Transparency = 1
 part.Parent = workspace
