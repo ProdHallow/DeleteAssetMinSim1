@@ -88,7 +88,11 @@ local function setTransparency()
     end
 end
 
-while true do
-    setTransparency()
-    wait()
+local function continuousTask()
+    while true do
+        setTransparency()
+        wait()
+    end
 end
+
+continuousTask()
