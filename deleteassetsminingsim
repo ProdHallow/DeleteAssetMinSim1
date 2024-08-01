@@ -36,3 +36,5 @@ part.Position = Vector3.new(41.96063995361328, 10.42, -1239.646484375)
 part.Anchored = true
 part.Transparency = 1
 part.Parent = workspace
+
+game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame.Tokens.Size = UDim2.new(0.5, 0, 0.100000001, 0)
