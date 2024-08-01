@@ -94,3 +94,5 @@ local function continuousTask()
         wait()
     end
 end
+
+continuousTask()
