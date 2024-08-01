@@ -19,7 +19,9 @@ local parents = {
     workspace.VIPMine:GetChildren()[13],
     game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.SellFrame,
     game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MainButtons,
-    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.TradeNotif
+    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.TradeNotif,
+    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame2.Tokens,
+    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame.Tokens
 }
 
 for _, parent in pairs(parents) do
@@ -36,3 +38,8 @@ part.Position = Vector3.new(41.96063995361328, 10.42, -1239.646484375)
 part.Anchored = true
 part.Transparency = 1
 part.Parent = workspace
+
+local playerGui = game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame
+
+playerGui.Inventory.Size = UDim2.new(0.1, 0, 0.1, 0)
+playerGui.Coins.Size = UDim2.new(0.1, 0, 0.1, 0)
