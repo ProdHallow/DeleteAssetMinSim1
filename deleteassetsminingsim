@@ -41,5 +41,5 @@ part.Parent = workspace
 
 local playerGui = game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame
 
-playerGui.Inventory.Size = UDim2.new(0.1, 0, 0.1, 0)
-playerGui.Coins.Size = UDim2.new(0.1, 0, 0.1, 0)
+playerGui.Inventory.Size = UDim2.new(0.5, 0, 0.5, 0)
+playerGui.Coins.Size = UDim2.new(0.5, 0, 0.5, 0)
