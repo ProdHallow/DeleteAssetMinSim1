@@ -19,8 +19,7 @@ local parents = {
     workspace.VIPMine:GetChildren()[13],
     game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.SellFrame,
     game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MainButtons,
-    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.TradeNotif,
-    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.StatsFrame.Tokens
+    game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.TradeNotif
 }
 
 for _, parent in pairs(parents) do
