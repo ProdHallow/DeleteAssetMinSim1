@@ -92,3 +92,5 @@ while true do
     setTransparency()
     wait()
 end
+
+do
