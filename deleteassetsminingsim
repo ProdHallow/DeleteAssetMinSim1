@@ -76,3 +76,6 @@ local playerGui = game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui
 playerGui.StatsFrame.Tokens.Size = UDim2.new(0.5, 0, 0.2, 0)
 playerGui.StatsFrame.Inventory.Size = UDim2.new(0.5, 0, 0.2, 0)
 playerGui.StatsFrame.Coins.Size = UDim2.new(0.5, 0, 0.2, 0)
+
+local collapseGui = playerGui:WaitForChild("Collapse")
+collapseGui.Visible = true
